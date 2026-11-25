@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class cardapio{
+	public static void main (String[] args){
+		Scanner sc = new  Scanner (System.in);
+		
+		short qtdBurguer = 0;
+		short qtdPizza = 0;
+		short qtdRefri = 0;
+		short qtdFries = 0;
+		short qtdSorvete = 0;
+		
+		float subTotal = 0;
+		int op;
+		do {
+			System.out.println("    =========CARDÁPIO==========");
+			System.out.println("[1] 1 - Hambúguer......R$ 15,00");
+			System.out.println("[2] 2 - Pizza...
